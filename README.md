@@ -73,7 +73,7 @@ Here is a screenshot of the React Developer Tools while inspecting the project:
 
 The project is live and can be accessed at the following link:
 
-[CarHub Deployment]
+[[CarHub Deployment]](https://car-hub-eight-jet.vercel.app/)
 
 ---
 
