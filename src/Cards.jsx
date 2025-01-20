@@ -6,7 +6,7 @@ const Cards = ({carDetails,userInput,check}) => {
   let rows=[]
   carDetails.forEach(eachCar=>{
     if(eachCar.title.toLowerCase().indexOf(userInput.toLowerCase()) === -1||(check===true && eachCar.isPremium===false)){
-      return;
+      return ;
     }
     rows.push(<Card key={eachCar.id} {...eachCar} />)
   })
